@@ -1,0 +1,214 @@
+
+body {
+    background-image: linear-gradient(to bottom right, #F2F77A, #036BF8);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 0.90rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 1024px; 
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid white;
+    margin-bottom: 30px;
+}
+
+main {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.main2 {
+    min-height: 300px;
+   padding-top: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card1 {
+    background-image: url(img/img-02.png);
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 30px;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.288);
+}
+
+.card2 {
+    background-image: url(img/img-03.png);
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 30px;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.288);
+}
+
+.card3 {
+    background-image: url(img/img-04.png);
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 30px;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.288);
+}
+
+.herobox1 {
+    width: 50%;
+    flex: 2;
+    padding-right: 100px;
+}
+
+.herobox2 {
+    width: 50%;
+    flex: 1;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 1rem;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.288);
+}
+p {
+    line-height: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+    margin: 25px;
+}
+
+.cards p {
+    font-size: 0.75em;
+    line-height: 1rem;
+    margin: 10px 30px 20px 30px;
+}
+
+.cards a {
+    text-decoration: none;
+}
+
+.mybutton {
+    background-color: white;
+    color: #036BF8;
+    padding: 11px 25px 11px 25px;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.288);
+}
+
+.mybutton:hover {
+    background-color: #036BF8;
+    color: white;
+    transition-duration: 1s;
+}
+
+a.mybutton {
+    display: inline-block;
+    margin-top: 20px;
+}
+nav a.mybutton {
+    margin-left: 20px;
+}
+
+.navbutton {
+    border: 1px solid white;
+    padding: 10px 25px;
+    margin-left: 20px;
+    display: inline-block;
+    position: relative;
+}
+
+.testemunhos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+
+.tbox {
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+/*.tbox :last-child {
+    font-size: .6rem;
+}*/
+
+.tbox p:last-of-type {
+    font-size: .6rem;
+    padding-left: 30px;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.navbutton:hover .dropdown {
+    display: block;
+}
+
+.dropdown .navbutton {
+    width: 120px;
+    background-color: #0369f848;
+}
+
+.inputwrapper {
+    margin-bottom: 20px;
+}
+
+input[type=text], input[type=email], textarea {
+    padding: 12px 20px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.newline {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.margin-right-a {
+    margin-right: 8px;
+}
+
+input[type=radio] {
+    margin-right: 10px;
+}
+
+form {
+    margin: 40px 0px;
+}
